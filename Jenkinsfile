@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Build 1') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Ranga2DevOps/example.git'
