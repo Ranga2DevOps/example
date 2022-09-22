@@ -3,11 +3,11 @@ pipeline {
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
-        maven "maven-3.7.8"
+        maven "maven-3.8.6"
     }
 
     stages {
-        stage('Build maven') {
+        stage('Build') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Ranga2DevOps/example.git'
